@@ -100,7 +100,7 @@ On average, the predictions were off 3.55 wins (8.66%), indicating that the mode
 ### Feature Analysis
 After assessing the influence of each predictor on wins, it was confirmed that this is the correct ranking of importance, however, the weights should be slightly shifted.  To determine the appropriate “weight” (or importance) of each factor, factors were assessed based on the change in wins given an increase/decrease in standard deviation.  For example, if an increase in one standard deviation of factor A would add 5 wins, and a 1 standard deviation increase in all variables adds 20 total wins, it is concluded that factor A would deserve 25% weight.  Absolute values were taken to account for variables that had a negative relationship with wins (i.e. turnovers).  Exhibit A displays statistics for each factor such as their mean, standard deviation, and win increase given an increase in standard deviation.  For a team with all mean values, their win total would be 41 wins (league average).  The Mean + SD adjustment column can be manipulated given team specific stats to understand the impact on wins given a team’s strength/weakness.  
 
-![image](https://user-images.githubusercontent.com/71853253/95609445-b23b4680-0a2c-11eb-9856-65bffddfd8e3.png)
+![image](https://user-images.githubusercontent.com/71853253/95639869-1deed500-0a68-11eb-9685-84ac38965e8b.png)
 *Values are rounded so caluclations may be off*
 
 ![image](https://user-images.githubusercontent.com/71853253/95609762-460d1280-0a2d-11eb-8056-4a95c4b4fd1c.png)
@@ -198,7 +198,7 @@ On average, the predictions were off 3.04 wins (7.41%), indicating that the mode
 
 ### Feature Analysis
 
-![image](https://user-images.githubusercontent.com/71853253/95619756-182fca00-0a3d-11eb-91e0-2ba8a25c70cb.png)
+![image](https://user-images.githubusercontent.com/71853253/95639903-3bbc3a00-0a68-11eb-83bc-cf76b1fd3621.png)
 *Values are rounded so calculations may be off*
 
 ![image](https://user-images.githubusercontent.com/71853253/95620060-97bd9900-0a3d-11eb-8eff-948b653d4c7a.png)
