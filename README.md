@@ -2,6 +2,32 @@
 
 # Table of Contents
 
+- [Source and Project Code](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#source-and-project-code)
+- [Project Introduction and Motivation](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#project-introduction-and-motivation)
+- [Methods Used](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#methods-used)
+- [Oliver's Four Factors](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#olivers-four-factors)
+- [Rule Changes](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#rule-changes)
+- [Data Cleaning and Exploratory Data Analysis](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#data-cleaning-and-exploratory-data-analysis)
+- [Oliver's Four Factors Regression](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#olivers-four-factors-regression)
+    - [Predictions](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#predictions)
+    - [Feature Analysis](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#feature-analysis)
+    - [Summarizing the Results](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#summarizing-the-results)
+    - [Visualizing the Results](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#visualizing-the-results)
+- [Improving the Model](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#improving-the-model)
+    - [Feature Engineering](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#feature-engineering)
+- [Tuned Model](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#tuned-model)
+    - [Predictions](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#predictions-1)
+    - [Feature Analysis](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#feature-analysis-1)
+    - [Visualizing the Results](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#visualizing-the-results-1)
+    - [Testing for Multicollinearity](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#testing-for-multicollinearity)
+ - [Evaluation of Championship Contenders](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#evaluation-of-championship-contenders)
+      - [Four Factors](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#four-factors-on-contenders)
+      - [Custom Model](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#custom-model-on-contenders)
+- [Conclusion](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#conclusion)
+     - [More Information Worth Exploring](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#more-information-worth-exploring)
+      
+ 
+
 ### Source and Project Code
 All data was originally found on [NBA.com](https://stats.nba.com/teams/traditional/?PerMode=Totals&sort=PTS&dir=-1&Season=2005-06&SeasonType=Regular%20Season), and I compiled it into a CSV that can be found [here](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/NBAData.csv).  I merged the data across multiple categories of the stats page, including the "traidtional, advanced, four factors, scoring, opponent, and defense" into a single file for analysis.  All project code can be found [here].
 
@@ -19,7 +45,7 @@ All analysis was done in R. Select table and model outputs were reformatted in E
 * Merging Data (in Excel)
 
 ### Oliver's Four Factors
-Oliver’s Four Factors are effective field goal %, turnover rate, offensive rebounding percentage, and free throw rate.  Each of these metrics can be applied to both opposing teams (effective FG % and opponent’s effective FG %), thus making 8 total factors that are measured.
+Oliver’s Four Factors are *effective field goal %, turnover rate, offensive rebounding percentage, and free throw rate*.  Each of these metrics can be applied to both opposing teams (effective FG % and opponent’s effective FG %), thus making 8 total factors that are measured.
 
 1)	Effective Field Goal Percentage=(Field Goals Made) + (0.5*3P Field Goals Made))/(Field Goal Attempts)
 
