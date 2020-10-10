@@ -1,6 +1,6 @@
 # NBA-Win-Predictor
 
-# Table of Contents
+## Table of Contents
 
 - [Source and Project Code](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#source-and-project-code)
 - [Project Introduction and Motivation](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#project-introduction-and-motivation)
