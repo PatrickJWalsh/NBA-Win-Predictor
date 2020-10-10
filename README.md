@@ -51,6 +51,8 @@ All analysis was done in R. Select table and model outputs were reformatted in E
 
 ![image](https://user-images.githubusercontent.com/71853253/95625237-2f26ea00-0a46-11eb-9b6e-11b61db8114c.png)
 
+![image](https://user-images.githubusercontent.com/71853253/95665374-8e0b6280-0b1d-11eb-9fc8-330dba0e8b64.png)
+
 ![image](https://user-images.githubusercontent.com/71853253/95665285-fe65b400-0b1c-11eb-92b2-4f12ab4d1368.png)
 
 
@@ -114,7 +116,7 @@ After assessing the influence of each predictor on wins, it was confirmed that t
 ![image](https://user-images.githubusercontent.com/71853253/95639869-1deed500-0a68-11eb-9685-84ac38965e8b.png)
 *Values are rounded so caluclations may be off*
 
-![image](https://user-images.githubusercontent.com/71853253/95609762-460d1280-0a2d-11eb-8056-4a95c4b4fd1c.png)
+![image](https://user-images.githubusercontent.com/71853253/95665374-8e0b6280-0b1d-11eb-9fc8-330dba0e8b64.png)
 
 Given the impact of each factor on wins, the following weights have been determined: 
 
