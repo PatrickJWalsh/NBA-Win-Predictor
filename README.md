@@ -41,7 +41,7 @@ All analysis was done in R. Select table and model outputs were reformatted in E
 * Data Visualization
 * Feature Engineering
 * Linear Regression
-* Merging Data (in Excel)
+* Scraping and Joining Data (in Excel)
 
 ### Oliver's Four Factors
 Oliver’s Four Factors are *effective field goal %, turnover rate, offensive rebounding percentage, and free throw rate*.  Each of these metrics can be applied to both opposing teams (effective FG % and opponent’s effective FG %), thus making 8 total factors that are measured.
