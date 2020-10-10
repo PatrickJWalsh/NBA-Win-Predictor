@@ -5,7 +5,7 @@
 - [Source and Project Code](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#source-and-project-code)
 - [Project Introduction and Motivation](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#project-introduction-and-motivation)
 - [Methods Used](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#methods-used)
-- [Project Highlights](
+- [Project Highlights](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#project-highlights)
 - [Oliver's Four Factors](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#olivers-four-factors)
 - [Rule Changes](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#rule-changes)
 - [Data Cleaning and Exploratory Data Analysis](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#data-cleaning-and-exploratory-data-analysis)
@@ -44,7 +44,7 @@ All analysis was done in R. Select table and model outputs were reformatted in E
 * Linear Regression
 * Scraping and Joining Data (in Excel)
 
-### Project Highlights
+## Project Highlights
 * Assessed the accuracy of Oliver's Four Factors model using linear regression and concluded that the weight of factors should be slightly reallocated
 * Created a model that can more accurately predict (by half a game) how teams will perform through feature engineering *weightedpointspershotattempt*, a metric that provides more detailed information such that coaches and organizations can better identify areas to improve 
     * Model not only performed better on the league-wide level, but also on championship contenders (teams with 50+ wins)
