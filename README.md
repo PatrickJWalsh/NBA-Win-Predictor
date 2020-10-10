@@ -5,6 +5,7 @@
 - [Source and Project Code](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#source-and-project-code)
 - [Project Introduction and Motivation](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#project-introduction-and-motivation)
 - [Methods Used](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#methods-used)
+- [Project Highlights](
 - [Oliver's Four Factors](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#olivers-four-factors)
 - [Rule Changes](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#rule-changes)
 - [Data Cleaning and Exploratory Data Analysis](https://github.com/PatrickJWalsh/NBA-Win-Predictor/blob/main/README.md#data-cleaning-and-exploratory-data-analysis)
@@ -42,6 +43,16 @@ All analysis was done in R. Select table and model outputs were reformatted in E
 * Feature Engineering
 * Linear Regression
 * Scraping and Joining Data (in Excel)
+
+### Project Highlights
+* Assessed the accuracy of Oliver's Four Factors model using linear regression and concluded that the weight of factors should be slightly reallocated
+* Created a model that can more accurately predict (by half a game) how teams will perform through feature engineering *weightedpointspershotattempt*, a metric that provides more detailed information such that coaches and organizations can better identify areas to improve 
+    * Model not only performed better on the league-wide level, but also on championship contenders (teams with 50+ wins)
+
+![image](https://user-images.githubusercontent.com/71853253/95625237-2f26ea00-0a46-11eb-9b6e-11b61db8114c.png)
+
+![image](https://user-images.githubusercontent.com/71853253/95665285-fe65b400-0b1c-11eb-92b2-4f12ab4d1368.png)
+
 
 ### Oliver's Four Factors
 Oliver’s Four Factors are *effective field goal %, turnover rate, offensive rebounding percentage, and free throw rate*.  Each of these metrics can be applied to both opposing teams (effective FG % and opponent’s effective FG %), thus making 8 total factors that are measured.
@@ -201,7 +212,7 @@ On average, the predictions were off 3.04 wins (7.41%), indicating that the mode
 ![image](https://user-images.githubusercontent.com/71853253/95639903-3bbc3a00-0a68-11eb-83bc-cf76b1fd3621.png)
 *Values are rounded so calculations may be off*
 
-![image](https://user-images.githubusercontent.com/71853253/95620060-97bd9900-0a3d-11eb-8eff-948b653d4c7a.png)
+![image](https://user-images.githubusercontent.com/71853253/95665285-fe65b400-0b1c-11eb-92b2-4f12ab4d1368.png)
 
 A team that is .25 standard deviations above average in *weightedpointsper3ptA* (value of .258 as opposed to .244) will win 2.63 more games.  For a team that is .5 standard deviations above average in *offensive rebounding,* they will win 1.83 more games.  A team that has both of these strengths will win 4.46 more games than league average.  In reality, these values will not be so rounded, and a team might be .27 standard deviations above average in one metric, and .18 standard deviations below average in another metric.   
 
