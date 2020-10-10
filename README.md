@@ -46,7 +46,7 @@ All analysis was done in R. Select table and model outputs were reformatted in E
 
 ## Project Highlights
 * Assessed the accuracy of Oliver's Four Factors model using linear regression and concluded that the weight of factors should be slightly reallocated (more into shooting)
-* Created a model that can more accurately predict (by half a game) how teams will perform through feature engineering *weightedpointspershotattempt*, a metric that provides more detailed information such that coaches and organizations can better identify areas to improve 
+* Created a model that can more accurately predict (by half a game) how teams will perform through feature engineering *weightedpointspershotattempt*, a metric that provides more detailed information and better identifies areas to improve 
     * Model not only performed better on the league-wide level, but also on championship contenders (teams with 50+ wins)
 
 ![image](https://user-images.githubusercontent.com/71853253/95625237-2f26ea00-0a46-11eb-9b6e-11b61db8114c.png)
